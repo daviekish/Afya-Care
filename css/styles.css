@@ -1,3 +1,7 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .dropbtn {
   background-color: transparent;
   color: white;
@@ -7,6 +11,7 @@
   cursor: pointer;
   
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
