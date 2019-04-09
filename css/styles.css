@@ -3,9 +3,9 @@ h1 {
 }
 
 body {
-    background-image: url("https://i.pinimg.com/564x/2b/68/fa/2b68fab1d6b634a7943ff0cacb8483de.jpg");
-    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/564x/32/72/13/3272133dc6e3fa252b95e4aad77dcd98.jpg");
     background-size: cover;
+
 }
 
 body {
@@ -18,7 +18,8 @@ body {
 
 /* Full-width input fields */
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -29,7 +30,8 @@ input[type=text], input[type=password] {
 
 /* Add a background color when the inputs get focus */
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus,
+input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
@@ -103,8 +105,7 @@ button:hover {
     background-color: #fefefe;
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 100%;
+    border: 1px solid width: 100%;
     /* Could be more or less, depending on screen size */
 }
 
@@ -115,19 +116,7 @@ hr {
     margin-bottom: 25px;
 }
 
-.buttonz {
-    border: none;
-    color: white;
-    padding-right: 5px 5px;
-    padding-left: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 350px;
-    cursor: pointer;
-}
+
 
 /* The Close Button (x) */
 
@@ -140,7 +129,8 @@ hr {
     color: #f1f1f1;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
     color: #f44336;
     cursor: pointer;
 }
@@ -156,7 +146,9 @@ hr {
 /* Change styles for cancel button and signup button on extra small screens */
 
 @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
+
+    .cancelbtn,
+    .signupbtn {
         width: 100%;
     }
 }
