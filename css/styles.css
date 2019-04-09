@@ -3,5 +3,7 @@ h1 img{
     margin-right:20%;
 }
 body{
-    background-image: url("https://i.pinimg.com/564x/06/46/3c/06463cf2a3df44d24a8f138d5b8cfbb6.jpg")
+    background-image: url("https://i.pinimg.com/564x/2b/68/fa/2b68fab1d6b634a7943ff0cacb8483de.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
