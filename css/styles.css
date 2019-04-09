@@ -1,42 +1,200 @@
-body{
+
+
+/*Background Image*/
+.img{
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
 }
-.dropbtn {
-  background-color: transparent;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  
+h1{
+  text-align: center;
 }
 
-.dropdown {
-  position: relative;
+
+
+/* navigation bars with dropdown */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  }
+
+
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
   display: inline-block;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(54, 49, 49, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
+
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #5ac3d1;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .dropbtn {
-  background-color: #2b2e2b;
+
+
+
+/*footer background */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(122, 131, 123);
+  color: white;
+  text-align: center;
+}
+
+
+
+/* footer content*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+/*overlay menu bar*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 30px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* card functioning*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }

@@ -14,24 +14,55 @@
 
 <body>
   <style>
-    body {
+    .img {
       background-image: url("images/download.jpg")
     }
   </style>
-  <div class="container">
-    <h1>Afya Care</h1>
-    <div class="dropbtn">
-      <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="#">galash mgonjwa</a>
+  <div class="img">
+    <div class="container">
+      <h1>Afya Care</h1>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <ul>
+            <li><a href="#timetable">Timetable</a></li>
+            <li><a href="#help">How it works</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Accounts</a>
+              <div class="dropdown-content">
+                <a href="#">Galaano</a>
+              </div>
+            </li>
+            <li><a href="#home">Home</a></li>
+          </ul>
         </div>
       </div>
-
+      <span style="font-size:15px;cursor:pointer;float:right" onclick="openNav()">&#9776; open</span>
     </div>
-
   </div>
-
+  <div class="container">
+    <h2 style="text-align:center">ANTIBIOTICS</h2>
+    <div class="card">
+      <img src="/w3images/jeans3.jpg" alt="antibiotic" style="width:100%">
+      <h1>Tailored Jeans</h1>
+      <p class="price">$19.99</p>
+      <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer">
+      <div class="card">
+        <img src="img.jpg" alt="logo" style="width:100%">
+        <h1>Afya Care</h1>
+        <p class="title">CEO & Founder, Galaano Suleiman</p>
+        <p>Moringa School.</p>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-gmail"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Contact</button></p>
+      </div>
+    </div>
 </body>
 
 </html>
