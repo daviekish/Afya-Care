@@ -214,24 +214,41 @@ a:hover {
 
 .tabcontent2{
   display: none;
+ font-family: 'Economica',
+  sans-serif;
+  font-size: 20px
 }
 
 .tabcontent1 {
   display: none;
+  font-family: 'Economica',
+  sans-serif;
 }
 
 .tabcontent3 {
   display: none;
+  font-family: 'Economica',
+  sans-serif;
+  font-size: 20px
 }
 .tabcontent4 {
   display: none;
+  font-family: 'Economica',
+  sans-serif;
+  font-size: 20px
 }
 .tabcontent5 {
   display: none;
+  font-family: 'Economica',
+  sans-serif;
+  font-size: 20px
 }
 
 .tabcontent6 {
   display: none;
+  font-family: 'Economica',
+  sans-serif;
+  font-size: 20px
 }
 
 
