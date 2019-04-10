@@ -1,0 +1,41 @@
+body {
+  background-color: #2b344b;
+  font-size: 20px;
+  color: white;
+  font-family: 'Jura', sans-serif;
+}
+
+img {
+  max-width: 1000px;
+}
+
+h1 {
+
+  font-size: 100px;
+  color: #5ac3d1;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #f9f9f9;
+}
+
+h2 img {
+  float: left;
+  width: 10px;
+  height: 10px;
+}
+
+#logo {
+  max-width: 300px;
+  max-height: 300px;
+}
+.triple{
+  max-width: 350px;
+}
+
+button{
+  background-color: #008CBA;
+  color: pink;
+}
