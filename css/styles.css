@@ -1,17 +1,22 @@
 
-
+body{
+  background-color: #2b344b
+}
 /*Background Image*/
 .img{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  background-attachment: fixed;
+  max-height: fit-content
 }
 h1{
   text-align: center;
+  color: #5ac3d1
 }
 
-
+h2{
+  color: rgb(180, 138, 21);
+}
 
 /* navigation bars with dropdown */
 ul {
@@ -85,10 +90,16 @@ li.dropdown {
   margin: auto;
   text-align: center;
 }
+.logof{
+  max-width: 200px;
+  image-rendering: auto
+}
 
 .title {
-  color: grey;
-  font-size: 18px;
+  color: rgb(42, 214, 185);
+  font-size: 30px;
+  font-family: 'Dancing Script',
+  cursive;
 }
 
 button {
@@ -171,10 +182,11 @@ a:hover {
 
 /* card functioning*/
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(247, 245, 245, 0.945);
   max-width: 300px;
   margin: auto;
   text-align: center;
+  color: #f1f1f1;
   font-family: arial;
 }
 
@@ -198,3 +210,32 @@ a:hover {
 .card button:hover {
   opacity: 0.7;
 }
+
+
+.tabcontent2{
+  display: none;
+}
+
+.tabcontent1 {
+  display: none;
+}
+
+.tabcontent3 {
+  display: none;
+}
+.tabcontent4 {
+  display: none;
+}
+.tabcontent5 {
+  display: none;
+}
+
+.tabcontent6 {
+  display: none;
+}
+
+
+.sex{
+  color: #159b48
+}
+
