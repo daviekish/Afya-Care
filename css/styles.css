@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    background-image: url("https://i.pinimg.com/564x/32/72/13/3272133dc6e3fa252b95e4aad77dcd98.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2019/03/26/19/08/tablet-4083463_960_720.jpg");
     background-size: cover;
 
 }
@@ -47,6 +47,10 @@ button {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+}
+
+body {
+    font-family: 'Exo', sans-serif;
 }
 
 button:hover {
@@ -102,12 +106,12 @@ button:hover {
 /* Modal Content/Box */
 
 .modal-content {
-    background-color: pink;
+    background-color: whitesmoke;
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid width: 100%;
     /* Could be more or less, depending on screen size */
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Style the horizontal ruler */
