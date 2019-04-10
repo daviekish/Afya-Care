@@ -102,11 +102,12 @@ button:hover {
 /* Modal Content/Box */
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: pink;
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid width: 100%;
     /* Could be more or less, depending on screen size */
+    opacity: 0.9;
 }
 
 /* Style the horizontal ruler */
