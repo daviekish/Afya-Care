@@ -1,16 +1,26 @@
+
+
 body {
   background-color: #2b344b;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
-  font-family: 'Jura', sans-serif;
+}
+p{
+  font-family: 'Buenard', serif;
+  font-size: 30px;
+}
+h1{
+  font-family: 'Playball', cursive;
 }
 
+h2{
+  font-family: 'Jura', sans-serif;
+}
 img {
   max-width: 1000px;
 }
 
 h1 {
-
   font-size: 100px;
   color: #5ac3d1;
 }
@@ -31,11 +41,17 @@ h2 img {
   max-width: 300px;
   max-height: 300px;
 }
-.triple{
+
+.triple {
   max-width: 350px;
 }
 
-button{
+button {
   background-color: #008CBA;
   color: pink;
+}
+
+.text {
+  color: black;
+  background-color
 }
