@@ -11,7 +11,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #008CBA;
+  background-color: #2b344b;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -23,8 +23,31 @@ button {
 button:hover {
   opacity: 0.8;
 }
+.container{
+  background-color: rgba(43, 52, 75,1.0);
+  width: 100%;
+  height: 100%;
 
+}
+.user{
+  color: white;
+}
+.pass{
+  color: white;
+}
 
+.yuri{
+  background-color: #2b344b;
+  color: white;
+}
+.isse{
+  background-color:#2b344b ;
+  color: white;
+}
+
+#rem{
+  color: white;
+}
 
 .cancelbtn {
   width: 100;
@@ -48,22 +71,20 @@ span.passw {
   width: 100%;
   height: 100%;
   overflow: auto;
-  padding-top: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+
 
 }
 
-/
 .modal-content {
   margin: 5% auto 15% auto;
-   width: 100
+   width: 100%;
    opacity: 0.8;
 
 }
-.container{
-  position: absolute;
-  opacity: 0.8;
-  font-size: 12px;
-}
+
 
 .close {
   position: absolute;

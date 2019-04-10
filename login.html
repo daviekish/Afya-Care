@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
       <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -28,15 +28,20 @@
 
 
      <div class="container">
-       <label  for="sname"><b>Username</b> <i class="fas fa-user"></i></label>
-       <input type="text" placeholder="Enter Username" name="sname" required>
+       <label    class="user" for="sname"><b>Username</b> <i class="fas fa-user"></i></label>
+       <input class="isse" type="text" placeholder="Enter Username" name="sname" required>
 
-       <label for="passw"><b>Password</b> <i class="fab fa-keycdn"></i></label>
-       <input type="password" placeholder="Enter Password" name="passw" required>
+       <label  class="pass"for="passw"><b>Password</b> <i class="fab fa-keycdn"></i></label>
+       <input  class="yuri" type="password" placeholder="Enter Password" name="passw" required>
 
        <button type="submit">Login</button>
+
+       <br>
+       
        <label>
-         <input type="checkbox" checked="checked" name="remember"> Remember me
+         <span id="rem">
+         <input type="checkbox" checked="checked" name="remember"><b>Remember me</b>
+         </span>
        </label>
 
        <br>
