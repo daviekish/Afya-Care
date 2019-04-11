@@ -79,3 +79,10 @@ $(document).ready(function () {
     });
   });
 });
+
+
+/*thumbs up*/
+
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
