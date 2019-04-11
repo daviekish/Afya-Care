@@ -1,18 +1,384 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="m-css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script|Economica|Jua|Merienda" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="m-css/styles-m.css">
+
+  <script src="m-js/jquery-3.3.1.js"></script>
+  <script src="m-js/scripts-m.js"></script>
+  <title>Landing Page</title>
 </head>
+
 <body>
+  <style>
+    .img {
+      background-image: url("m-images/USTC-AFYA.jpg")
+    }
+  </style>
+  <div class="img">
+    <div class="container">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <ul>
+            <li><a href="#timetable">Timetable</a></li>
+            <li><a href="#help">How it works</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Accounts</a>
+              <div class="dropdown-content">
+                <a href="#">Galaano</a>
+              </div>
+            </li>
+            <li><a href="#home">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer;float: right;color:white;" onclick="openNav()">&#9776;</span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="font-family: 'Jua', sans-serif;"><u>Main types of medicines and their effects.</u></h1>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <h1 style="text-align:center; color: azure; font-family: 'Merienda', cursive;">ANTIBIOTICS</h1>
+        <div class="card">
+          <img src="m-images/antibiotics.jpg" alt="antibiotic" style="width:100%">
+          <h1 class="color">Antibiotics</h1>
+          <p>what you should know about antibiotics</p>
+          <br>
+          <br>
+          <br>
+          <div class="tab">
+            <p><button class="tablinks2" onclick="openHelp">Read more</button></p>
+          </div>
+          <div class="tabcontent2">
 
+            <h3><u>Antibiotics</u></h3>
+            <ol>
+              <p> Antibiotics are powerful medicines that fight certain infections and can save lives when used
+                properly. They either stop
+                bacteria from reproducing or destroy them.
 
+                Before bacteria can multiply and cause symptoms, the immune system can typically kill them. White blood
+                cells (WBCs)
+                attack harmful bacteria and, even if symptoms do occur, the immune system can usually cope and fight off
+                the infection.
+
+                Sometimes, however, the number of harmful bacteria is excessive, and the immune system cannot fight them
+                all.
+                Antibiotics are useful in this scenario.</p>
+
+              <h4><em>Antibiotics commonly cause the following side effects:</em></h4>
+
+              <li>nausea</li>
+              <li>vomiting</li>
+              <li>rash</li>
+              <li>upset stomach</li>
+              <li>with certain antibiotics or prolonged use, fungal infections of the mouth, digestive tract, and vagina
+              </li>
+              <li>Less common side effects of antibiotics include:
+
+                formation of kidney stones, when taking sulphonamides
+                abnormal blood clotting, when taking some cephalosporins)
+                sensitivity to sunlight, when taking tetracyclines
+                blood disorders, when taking trimethoprim
+                deafness, when taking erythromycin and the aminoglycosides
+                Some people, especially older adults, may experience bowel inflammation, which can lead to severe,
+                bloody diarrhea.
+
+                In less common instances, penicillins, cephalosporins, and erythromycin can also cause inflamed bowels.
+              </li>
+            </ol>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h2 style="text-align:center; color: azure; font-family: 'Merienda', cursive;">PAINKILLERS</h2>
+        <div class="card">
+          <img src="m-images/painkillers.jpg" alt="painkillers" style="width:100%">
+          <h1 class="pain">Painkillers</h1>
+          <p>Painkillers are a very common drug among people usually found in every</p>
+          <br>
+          <div class="tab">
+            <p><button class="tablinks1" onclick="openHelp">Read more</button></p>
+          </div>
+          <div id=tabhelp class="tabcontent1">
+
+            <h3><u>Painkillers</u></h3>
+            <ul>
+              <li>Pain can be mild, moderate or severe. It can be treated using different strengths of painkiller,
+                depending on your level
+                of pain. Your doctors and nurses will assess your pain and prescribe the best painkillers to help
+                control it.</li>
+
+              <li>Mild pain is often treated with non-opioid drugs, for example paracetamol and anti-inflammatory drugs
+                (Brufen®,
+                Neurofen®).</li>
+              <li>Moderate to severe pain is usually treated with painkillers called opioids. These include
+                dihydrocodeine (DF118 Forte®,
+                DHC Continus®), codeine phosphate, tramadol, morphine, fentanyl and oxycodone.
+                Sometimes opioids are used to treat mild pain.</li>
+
+              <li>Non-opioids can be used in combination with opioids. Other medicines, known as adjuvant drugs, may
+                also be used to
+                control pain. Examples are bisphosphonates and steroids.</li>
+
+              <li> painkillers give quick relief that lasts for a short time. These are called short-acting painkillers.
+                Long-acting
+                painkillers (also called slow-release painkillers) are slower to control the pain but are effective for
+                a longer time.</li>
+
+              <li> painkillers can cause <em>side effects</em> in some people. If you have any side effects, tell your
+                doctor or nurse.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2 style="text-align: center; color: azure; font-family: 'Merienda', cursive;">DEPRESSANTS</h2>
+        <div class="card">
+          <img src="m-images/depressants.jpg" alt="depressants" style="width:100%">
+          <h1>Depressants</h1>
+          <p>Depressants are a commonly abused drugs by many people due to personal issues</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div class="tab">
+            <p><button class="tablinks3" onclick="openHelp">Read more</button></p>
+          </div>
+          <div id=tabhelp class="tabcontent3">
+
+            <h3 class="depressed"><u>Depressants</u></h3>
+            <ul>
+
+              A depressant, or central depressant, is a drug that lowers neurotransmission levels, which is to depress
+              or reduce arousal or stimulation, in various areas of the brain.[1] Depressants are also occasionally
+              referred to as "downers" as they lower the level of arousal when taken. Stimulants or "uppers" increase
+              mental and/or physical function, hence the opposite drug class of depressants is stimulants, not
+              antidepressants.
+
+              Depressants are widely used throughout the world as prescription medicines and as illicit substances.
+              Alcohol is a very prominent depressant. Alcohol can be and is more likely to be a large problem among
+              teenagers and young adults. When depressants are used, effects often include ataxia, anxiolysis, pain
+              relief, sedation or somnolence, and cognitive/memory impairment, as well as in some instances euphoria,
+              dissociation, muscle relaxation, lowered blood pressure or heart rate, respiratory depression, and
+              anticonvulsant effects, and even complete anesthesia or death at high doses. Cannabis may sometimes be
+              considered a depressant. THC may slow brain function to a small degree, while reducing reaction to
+              stimuli. Cannabis may also treat insomnia, anxiety and muscle spasms similar to other depressive drugs.
+              Other depressants can include drugs like xanax and a number of opiates.
+
+              Depressants exert their effects through a number of different pharmacological mechanisms, the most
+              prominent of which include facilitation of GABA, and inhibition of glutamatergic or monoaminergic
+              activity. Other examples are chemicals that modify the electrical signaling inside the body. The most
+              prominent of these being bromides and channel blockers.
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1 style="text-align: center; color: azure;font-family: 'Merienda', cursive;">ANTI MALARIAL TABLETS</h1>
+      <div class="card">
+        <img src="m-images/antimalarial.jpg" alt="malaria" style="width:100%">
+        <h2>Antimalarial Pills</h2>
+        <p>Maliria is a very commom and dangerous disease mainly caused by the female mosquitos</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+          <p><button class="tablinks4" onclick="openHelp">Read more</button></p>
+        </div>
+        <div id=tabhelp class="tabcontent4">
+
+          <h3 class="malaria"><u>Antimalarials Pills</u></h3>
+          <ul>
+            <p> The 4 major drug classes currently used to treat malaria include quinoline-related compounds,
+              antifolates,
+              artemisinin derivatives, and antimicrobials. No single drug that can eradicate all forms of the parasite's
+              life cycle has been discovered or manufactured yet. Therefore, 1 or more classes of drugs often are given
+              at
+              the same time to combat malarial infection synergistically. Treatment regimens are dependent on the
+              geographic location of infection, the likely Plasmodium species, and the severity of disease presentation.
+
+              Beware of counterfeit antimalarial drugs being taken by patients that may have been purchased overseas or
+              via the Internet. They may not contain any active ingredients at all and may contain dangerous materials.
+
+              Antipyretics, such as acetaminophen or nonsteroidal anti-inflammatory drugs (NSAIDs), are indicated to
+              reduce the level of discomfort caused by the infection and to reduce fever. NSAIDs should be used with
+              caution if bleeding disorder or hemolysis is suspected.
+
+              Antimalarials can cause significant prolongation of the QT interval, which can be associated with an
+              increased risk of potentially lethal ventricular dysrhythmias. Patients receiving these drugs should be
+              assessed for QT prolongation at baseline and carefully monitored if this is present. Patients with normal
+              QT
+              intervals on electrocardiogram (ECG) may not be at a significantly increased risk for drug-induced
+              dysrhythmia, but caution is advised, particularly if the patient is taking multiple drug regimens or if he
+              or she is on other drugs affecting the QT interval.
+
+              Methemoglobinemia is a complication that may be associated with high-dose regimens of quinine or the
+              derivatives chloroquine and primaquine. [24] A patient presenting with cyanosis and a normal PaO2 on room
+              air should be suspected of having methemoglobinemia.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1 style="text-align: center; color: azure; font-family: 'Merienda', cursive;">CONTRACEPTIVES</h1>
+      <br>
+      <br>
+      <div class="card">
+        <img src="m-images/contraceptives.jpg" alt="sex" style="width:100%">
+        <h2>Contraceptives</h2>
+        <p>One of the most used medications to avoid unwanted pregnancies or sexual diseases</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="tab">
+          <p><button class="tablinks5" onclick="openHelp">Read more</button></p>
+        </div>
+        <div id=tabhelp class="tabcontent5">
+
+          <h3 class="sex"><u>Contraceptives</u></h3>
+          <ul>
+            Hormonal contraceptives (the pill, the patch, and the vaginal ring) all contain a small amount of man-made
+            estrogen and progestin hormones. These hormones work to inhibit the body's natural cyclical hormones to
+            prevent pregnancy. Pregnancy is prevented by a combination of factors. The hormonal contraceptive usually
+            stops the body from ovulating. Hormonal contraceptives also change the cervical mucus to make it difficult
+            for the sperm to go through the cervix and find an egg. Hormonal contraceptives can also prevent pregnancy
+            by changing the lining of the womb so it's unlikely the fertilized egg will be implanted.
+
+            Another option for hormonal contraceptives is the extended-cycle pill, such as Seasonale, which was the
+            first one to be approved. Seasonale contains the same hormones as other birth control pills, but the
+            hormones are taken in a longer cycle. That reduces the number of menstrual periods from 13 periods a year to
+            only four a year. That means a woman who takes this pill will menstruate only once each season.
+
+            Seasonale contains the same combination of two hormones that are commonly used in other hormonal
+            contraceptives. But the pill is taken continuously for 12 weeks followed by one week of inactive pills,
+            which results in a menstrual cycle. Other extended-cycle pills, such as Seasonique and LoSeasonique use a
+            different configuration of the same hormones. Both of these pills use estrogen in the final week, with
+            LoSeasonique providing a lower dose option.
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1 style="text-align: center; color: azure; font-family: 'Merienda', cursive;">THE FLU</h1>
+      <br>
+      <br>
+      <div class="card">
+        <img src="m-images/flu.jpg" alt="the-flu" style="width:100%">
+        <h2>The flu</h2>
+        <p>One of the most common diseases by most. and very infective</p>
+        <br>
+        <div class="tab">
+          <p><button class="tablinks6" onclick="openHelp">Read more</button></p>
+        </div>
+        <div id=tabhelp class="tabcontent6">
+
+          <h3 class="homa"><u>Flue</u></h3>
+          <ul>
+            The flu attacks the lungs, nose and throat. Young children, older adults, pregnant women and people with
+            chronic disease or weak immune systems are at high risk.
+            Symptoms include fever, chills, muscle aches, cough, congestion, runny nose, headaches and fatigue.
+            The flu is treated primarily with rest and fluid to let the body fight the infection on its own.
+            Over-the-counter anti-inflammatory pain relievers may help with symptoms. An annual vaccine can help prevent
+            the flu and limit its complications.
+            <h4>How it spreads</h4>
+            <li>By airborne respiratory droplets (coughs or sneezes).</li>
+            <li>By skin-to-skin contact (handshakes or hugs).</li>
+            <li>By saliva (kissing or shared drinks).</li>
+            <li>touching a contaminated surface (blanket or doorknob).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="col-md-4"><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></div>
+    <div class="col-md-4">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="logof" src="m-images/afyacare.jpg" alt="logo" style="width:100%">
+          </div>
+          <div class="flip-card-back">
+            <h1 style="font-size: 40px;">Afya Care</h1>
+            <br>
+            
+            
+            <p>Enabling your wellness</p>
+            <br>
+            <br>
+            <p style="font-family: 'Dancing Script', cursive; font-size: 30px; color:chocolate">Ceo and founder Galaano
+              Suleiman</p>
+            <br>
+            <br>
+            <br>
+            <br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
 </body>
+
 </html>
