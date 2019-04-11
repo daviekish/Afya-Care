@@ -7,12 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>AFYA CARE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="a-css/bootstrap.css">
+  <link rel="stylesheet" href="m-css/bootstrap.css">
   <link rel="stylesheet" type="text/css" media="screen" href="a-css/styles-a.css">
   <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
-  <script src="a-js/jquery-3.3.1.js"></script>
+  <script src="m-js/jquery-3.3.1.js"></script>
   <script src="a-js/scripts-a.js"></script>
 
 </head>
@@ -31,7 +31,39 @@
         <h1>Afya Care</h1>
       </div>
       <div class="col-md-4">
-
+        
+        </div>
+        <div class="sign-up">
+            <p> <button class="tab-signup"  onclick="return myFunction()"> Sign-Up</button></p>
+            <div id="tab-signup-cont">
+              <form class="modal-content" action="landing-page.html">
+                <div class="container">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" id="psw" required>
+  
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" id="psw-repeat" required>
+  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember
+                    me</label>
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+                  <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                      class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn" onclick="return Validate()">Sign Up</button>
+  
+                  </div>
+                </div>
+              </form>
+  
+            </div>
       </div>
     </div>
     <br>
@@ -208,7 +240,8 @@
 
 
 
-    <p>Afya care is a website that helps anybody who is on medication to make sure that they take there medicine on time and
+    <p>Afya care is a website that helps anybody who is on medication to make sure that they take there medicine on time
+      and
       guarantees you to finish your dosage .
       Afya center is a new website that will help many and ensure one has a better and healthy life.</p>
     <br>
@@ -229,7 +262,8 @@
       Yep it will remind you to your doctor's appointment
       a day before.
 
-      Our website will show you the kind of reactions one will have when a certain medication it takes, the allergies or the side effects</p>
+      Our website will show you the kind of reactions one will have when a certain medication it takes, the allergies or
+      the side effects</p>
     <br>
     <br>
     <br>
