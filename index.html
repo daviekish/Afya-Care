@@ -11,7 +11,8 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
 
   <link rel="stylesheet" type="text/css" media="screen" href="a-css/styles-a.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
+   <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
+
   <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
@@ -28,67 +29,199 @@
     <br>
     <div class="row">
       <div class="col-xs-6 col-md-4">
-        <img class="img-circle" id="logo" src="a-img/AFYALogo.jpg" alt="logo">
+        <a href="landing-page.html"><button class="logo-button"><img class="img-circle" id="logo" src="a-img/AFYALogo.jpg" alt="logo"></button></a>
       </div>
       <div class="col-xs-12 col-md-8">
         <h1>Afya Care</h1>
       </div>
-      <div class="col-md-4">
 
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <button onclick="document.getElementById('login1').style.display='block'">Sign in</button>
       </div>
+
+      <div class="col-md-6">
+        <p> <button class="tab-signup" onclick="return myFunction() .style.display='block'"> Sign-Up</button></p>
+      </div>
+
+       <div class="sign-up">
+
+         <div id="tab-signup-cont">
+           <form class="modal-content" action="landing-page.html">
+             <div class="container">
+               <h2>Sign Up</h2>
+               <p>Please fill in this form to create an account.</p>
+               <hr>
+               <label for="email"><b>Email</b></label>
+               <input type="text" placeholder="Enter Email" name="email" required>
+               <label for="psw"><b>Password</b></label>
+               <input type="password" placeholder="Enter Password" id="psw" required>
+
+               <label for="psw-repeat"><b>Repeat Password</b></label>
+               <input type="password" placeholder="Repeat Password" id="psw-repeat" required>
+
+               <label>
+                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember
+                 me</label>
+
+
+               <div class="clearfix">
+                 <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                   class="cancelbtn">Cancel</button>
+                 <button type="submit" class="signupbtn" onclick="return Validate()">Sign Up</button>
+
+               </div>
+             </div>
+           </form>
+
     </div>
 
-    <button onclick="document.getElementById('login1').style.display='block'">sign in</button>
-
+       </div>
+     </div>
+     </div>
     <br>
     <br>
     <h2><u>About Us</u></h2>
     <br>
     <br>
 
+   <div id="login1" class="modal">
+     <span onclick="document.getElementById('login1').style.display='none'" class="close"
+       title="Close Modal">&times;</span>
+
+
+     <form class="modal-content animate" action="landing-page.html">
+
+
+       <div class="container">
+         <label class="user" for="sname"><b>Username</b> <i class="fas fa-user"></i></label>
+         <input class="isse" type="text" placeholder="Enter Username" name="sname" required>
+
+         <label class="pass" for="passw"><b>Password</b> <i class="fab fa-keycdn"></i></label>
+         <input class="yuri" type="password" placeholder="Enter Password" name="passw" required>
+
+         <button type="submit">Login</button>
+
+         <br>
+
+         <label>
+           <span id="rem">
+             <input type="checkbox" checked="checked" name="remember"><b>Remember me</b>
+           </span>
+         </label>
+
+         <br>
+         <style>
 
 
 
-    <div id="login1" class="modal">
-      <span onclick="document.getElementById('login1').style.display='none'"
-    class="close" title="Close Modal">&times;</span>
+           input[type=text], input[type=password] {
+           width: 100%;
+           padding: 12px 20px;
+           margin: 8px 0;
+           display: inline-block;
+           border: 1px solid #ccc;
+           box-sizing: border-box;
+           }
+
+           button {
+           background-color: #456451;
+           color: white;
+           padding: 14px 20px;
+           margin: 8px 0;
+           border-radius: 10px;
+           cursor: pointer;
+           width: 25%;
+           }
+
+           button:hover {
+           opacity: 0.8;
+           }
+           .container{
+           background-color: rgba(43, 52, 75,1.0);
+           width: 100%;
+           height: 100%;
+
+           }
+           .user{
+           color: white;
+           }
+           .pass{
+           color: white;
+           }
+
+           .yuri{
+           background-color: #2b344b;
+           color: white;
+           }
+           .isse{
+           background-color:#2b344b ;
+           color: white;
+           }
+
+           #rem{
+           color: white;
+           }
 
 
-      <form class="modal-content animate" action="landing-page.html">
+
+           span.passw {
+           float: right;
+           padding-top: 8px;
+           }
 
 
-        <div class="container">
-          <label    class="user" for="sname"><b>Username</b> <i class="fas fa-user"></i></label>
-          <input class="isse" type="text" placeholder="Enter Username" name="sname" required>
+           .modal {
+           display: none;
 
-          <label  class="pass"for="passw"><b>Password</b> <i class="fab fa-keycdn"></i></label>
-          <input  class="yuri" type="password" placeholder="Enter Password" name="passw" required>
+           z-index: 1;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: 100%;
 
-          <button type="submit">Login</button>
-
-          <br>
-
-          <label>
-            <span id="rem">
-            <input type="checkbox" checked="checked" name="remember"><b>Remember me</b>
-            </span>
-          </label>
-
-          <br>
+           padding-right: 100px;
+           padding-left: 100px;
+           padding-top: 100px;
 
 
-          </div>
-        </div>
+           }
 
-      </form>
-      </div>
-     </div>
+           .modal-content {
+           margin: 5% auto 15% auto;
+           width: 100%;
+           opacity: o.8;
+
+           }
+
+
+           .close {
+           position: absolute;
+           right: 25px;
+           top: 0;
+           color: #000;
+           font-size: 35px;
+           font-weight: bold;
+           }
+
+           .close:hover,
+           .close:focus {
+           color: red;
+           cursor: pointer;
+           }
+         </style>
+
+       </div>
+   </div>
+
+   </form>
+   </div>
+   </div>
 
 
 
-
-
-    <style>
+      <style>
         * {
           box-sizing: border-box;
         }
@@ -152,9 +285,9 @@
         /* toggle animation */
         .toggle {
           -webkit-animation-name: toggle;
-          -webkit-animation-duration: 5s;
+          -webkit-animation-duration: 10000s;
           animation-name: toggle;
-          animation-duration: 1.5s;
+          animation-duration: 7s;
 
         }
 
@@ -251,7 +384,8 @@
 
 
 
-    <p>Afya care is a website that helps anybody who is on medication to make sure that they take there medicine on time and
+    <p>Afya care is a website that helps anybody who is on medication to make sure that they take there medicine on time
+      and
       guarantees you to finish your dosage .
       Afya center is a new website that will help many and ensure one has a better and healthy life.</p>
     <br>
@@ -272,7 +406,8 @@
       Yep it will remind you to your doctor's appointment
       a day before.
 
-      Our website will show you the kind of reactions one will have when a certain medication it takes, the allergies or the side effects</p>
+      Our website will show you the kind of reactions one will have when a certain medication it takes, the allergies or
+      the side effects</p>
     <br>
     <br>
     <br>

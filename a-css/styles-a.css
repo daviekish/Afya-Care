@@ -11,6 +11,7 @@ p{
 }
 h1{
   font-family: 'Playball', cursive;
+  text-align: left
 }
 
 h2{
@@ -46,12 +47,51 @@ h2 img {
   max-width: 350px;
 }
 
-button {
-  background-color: #008CBA;
-  color: pink;
-}
+
 
 .text {
   color: black;
-  background-color
+  }
+
+.tab-signup{
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  float: right;
 }
+
+
+  #tab-signup-cont{
+    display:none;
+  }
+  h1 {
+    color: aqua;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /*logo as button*/
+ 
+.logo-button{
+  backface-visibility: hidden;
+  background-color: inherit;
+  border-color: transparent;
+}
+
+
+
+
+
+
