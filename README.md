@@ -6,27 +6,24 @@ This is a website that help users to take their medication on time or not to mis
 
 # BDD
 |User input|    input      | output                |
-|----------|---------------|-----------------------|
-| process  |     on Roll   |  dice number rolled   |
-|          |               |                       |
-|user      |               |                       |
-|withdrawal|   on Hold     | player shifted        |
-|game over |  on Hold      |  alert winner         |
-|          |               |                       |
+|----------|:---------------:|-----------------------|
+|Input time for reminder|Timer is set|Alert for time to take medicine|
+|Inquire about medicine|Click type of medicine|Contents of medicine displayed| 
 
 # Known bugs
-Currently no bugs have been detected. Incase of any kindly do not hesitate to contact me via my email.
+Currently no bugs have been detected. Incase of any kindly do not hesitate to contact us via my email:afyacare@gmail.com
 
 ## Terminologies furnished
-html
+HTML
 CSS
-bootstrap
-github
+Bootstrap
+Github
+JavaScript
 
 ### License ###
 MIT License
 
-Copyright (c) [2019] [Galaano Suleiman]
+Copyright (c) [2019] [Afya Care]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
