@@ -8,7 +8,10 @@
   <title>AFYA CARE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="a-css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
+
   <link rel="stylesheet" type="text/css" media="screen" href="a-css/styles-a.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
   <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
@@ -18,7 +21,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <br>
     <br>
     <br>
@@ -34,18 +37,58 @@
 
       </div>
     </div>
+
+    <button onclick="document.getElementById('login1').style.display='block'">sign in</button>
+
     <br>
     <br>
     <h2><u>About Us</u></h2>
     <br>
     <br>
 
-    <!DOCTYPE html>
-    <html>
 
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
+
+
+    <div id="login1" class="modal">
+      <span onclick="document.getElementById('login1').style.display='none'"
+    class="close" title="Close Modal">&times;</span>
+
+
+      <form class="modal-content animate" action="landing-page.html">
+
+
+        <div class="container">
+          <label    class="user" for="sname"><b>Username</b> <i class="fas fa-user"></i></label>
+          <input class="isse" type="text" placeholder="Enter Username" name="sname" required>
+
+          <label  class="pass"for="passw"><b>Password</b> <i class="fab fa-keycdn"></i></label>
+          <input  class="yuri" type="password" placeholder="Enter Password" name="passw" required>
+
+          <button type="submit">Login</button>
+
+          <br>
+
+          <label>
+            <span id="rem">
+            <input type="checkbox" checked="checked" name="remember"><b>Remember me</b>
+            </span>
+          </label>
+
+          <br>
+
+
+          </div>
+        </div>
+
+      </form>
+      </div>
+     </div>
+
+
+
+
+
+    <style>
         * {
           box-sizing: border-box;
         }
