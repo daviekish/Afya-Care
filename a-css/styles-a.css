@@ -54,7 +54,10 @@ h2 img {
   }
 
 .tab-signup{
-  width: 300px
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  float: right;
 }
 
 
@@ -86,3 +89,9 @@ h2 img {
   background-color: inherit;
   border-color: transparent;
 }
+
+
+
+
+
+

@@ -10,6 +10,7 @@
    <link rel="stylesheet" href="a-css/bootstrap.css">
   <link rel="stylesheet" type="text/css" media="screen" href="a-css/styles-a.css">
    <link rel="stylesheet" type="text/css" media="screen" href="css/stylesl.css">
+   
   <link href="https://fonts.googleapis.com/css?family=Buenard" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
@@ -33,15 +34,56 @@
       </div>
     
     </div>
+    <div class="row">
+      <div class="col-md-6">
+        <button onclick="document.getElementById('login1').style.display='block'">Sign in</button>
+      </div>
+      
+      <div class="col-md-6">
+        <p> <button class="tab-signup" onclick="return myFunction() .style.display='block'"> Sign-Up</button></p>
+      </div>
+       
+       <div class="sign-up">
+         
+         <div id="tab-signup-cont">
+           <form class="modal-content" action="landing-page.html">
+             <div class="container">
+               <h2>Sign Up</h2>
+               <p>Please fill in this form to create an account.</p>
+               <hr>
+               <label for="email"><b>Email</b></label>
+               <input type="text" placeholder="Enter Email" name="email" required>
+               <label for="psw"><b>Password</b></label>
+               <input type="password" placeholder="Enter Password" id="psw" required>
 
-     <button onclick="document.getElementById('login1').style.display='block'">sign in</button>
+               <label for="psw-repeat"><b>Repeat Password</b></label>
+               <input type="password" placeholder="Repeat Password" id="psw-repeat" required>
 
+               <label>
+                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember
+                 me</label>
+
+
+               <div class="clearfix">
+                 <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                   class="cancelbtn">Cancel</button>
+                 <button type="submit" class="signupbtn" onclick="return Validate()">Sign Up</button>
+
+               </div>
+             </div>
+           </form>
+
+    </div>
+    
+       </div>
+     </div>
+     </div>
     <br>
     <br>
     <h2><u>About Us</u></h2>
     <br>
     <br>
-  
+    
    <div id="login1" class="modal">
      <span onclick="document.getElementById('login1').style.display='none'" class="close"
        title="Close Modal">&times;</span>
