@@ -4,9 +4,14 @@
 ## Description
 This is a website that help users to take their medication on time or not to miss their doctor's appointment. url: https://github.com/daviekish/Afya-Care.git
 
+# BDD
+|User input|    input      | output                |
+|----------|:---------------:|-----------------------|
+|Input time for reminder|Timer is set|Alert for time to take medicine|
+|Inquire about medicine|Click type of medicine|Contents of medicine displayed| 
 
 # Known bugs
-Currently no bugs have been detected. Incase of any kindly do not hesitate to contact us via my email@ afyacare@gmail.com
+Currently no bugs have been detected. Incase of any kindly do not hesitate to contact us via my email:afyacare@gmail.com
 
 ## Terminologies furnished
 HTML
@@ -15,11 +20,6 @@ Bootstrap
 Github
 JavaScript
 
-###Project Implementors
-David Kamweru 
-Machel Nyanumba
-Galaano Suleimaan
-Leon Carson
 ### License ###
 MIT License
 
