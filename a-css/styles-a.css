@@ -46,12 +46,14 @@ h2 img {
   max-width: 350px;
 }
 
-button {
-  background-color: #008CBA;
-  color: pink;
-}
+
 
 .text {
   color: black;
   background-color
+}
+
+.logo-button{
+  backface-visibility: hidden;
+  background-color: inherit;
 }
