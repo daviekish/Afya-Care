@@ -56,4 +56,5 @@ h2 img {
 .logo-button{
   backface-visibility: hidden;
   background-color: inherit;
+  border-color: transparent;
 }
